@@ -1,0 +1,46 @@
+2024-05-23 10:50:11 - parse - DEBUG - format 'user navigates to Registartion url' -> 'user navigates to Registartion url'
+2024-05-23 10:50:11 - parse - DEBUG - format 'user enters Firstname,Middlename and lastname' -> 'user enters Firstname,Middlename and lastname'
+2024-05-23 10:50:11 - parse - DEBUG - format 'user clicks on Coarse and Gender' -> 'user clicks on Coarse and Gender'
+2024-05-23 10:50:11 - parse - DEBUG - format 'user enters MobileNumber,Address,Email,Password and ReType password' -> 'user enters MobileNumber,Address,Email,Password and ReType password'
+2024-05-23 10:50:11 - parse - DEBUG - format 'user clicks on submit Button' -> 'user clicks on submit Button'
+2024-05-23 10:50:11 - behave - INFO - Starting test suite
+2024-05-23 10:50:11 - behave - INFO - Starting scenario: User Registration Page
+2024-05-23 10:50:17 - behave - INFO - Navigating to the registration page
+2024-05-23 10:50:17 - behave - INFO - Entering firstname,middlename and lastname
+2024-05-23 10:50:23 - behave - INFO - Entering necessary details
+2024-05-23 10:50:27 - behave - INFO - Clicking on Submit Button
+2024-05-23 10:50:27 - behave - INFO - Scenario finished: User Registration Page
+2024-05-23 12:21:03 - parse - DEBUG - format 'user navigates to Registartion url' -> 'user navigates to Registartion url'
+2024-05-23 12:21:03 - parse - DEBUG - format 'user enters Firstname,Middlename and lastname' -> 'user enters Firstname,Middlename and lastname'
+2024-05-23 12:21:03 - parse - DEBUG - format 'user clicks on Coarse and Gender' -> 'user clicks on Coarse and Gender'
+2024-05-23 12:21:03 - parse - DEBUG - format 'user enters MobileNumber,Address,Email,Password and ReType password' -> 'user enters MobileNumber,Address,Email,Password and ReType password'
+2024-05-23 12:21:03 - parse - DEBUG - format 'user clicks on submit Button' -> 'user clicks on submit Button'
+2024-05-23 12:21:03 - behave - INFO - Starting test suite
+2024-05-23 12:21:03 - behave - INFO - Starting scenario: User Registration Page
+2024-05-23 12:21:07 - behave - INFO - Navigating to the registration page
+2024-05-23 12:21:08 - behave - INFO - Entering firstname,middlename and lastname
+2024-05-23 12:21:12 - behave - INFO - Entering necessary details
+2024-05-23 12:21:16 - behave - INFO - Clicking on Submit Button
+2024-05-23 12:21:16 - behave - INFO - Scenario finished: User Registration Page
+2024-05-23 12:24:00 - parse - DEBUG - format 'user navigates to Registartion url' -> 'user navigates to Registartion url'
+2024-05-23 12:24:00 - parse - DEBUG - format 'user enters Firstname,Middlename and lastname' -> 'user enters Firstname,Middlename and lastname'
+2024-05-23 12:24:00 - parse - DEBUG - format 'user clicks on Coarse and Gender' -> 'user clicks on Coarse and Gender'
+2024-05-23 12:24:00 - parse - DEBUG - format 'user enters MobileNumber,Address,Email,Password and ReType password' -> 'user enters MobileNumber,Address,Email,Password and ReType password'
+2024-05-23 12:24:00 - parse - DEBUG - format 'user clicks on submit Button' -> 'user clicks on submit Button'
+2024-05-23 12:24:00 - behave - INFO - Starting test suite
+2024-05-23 12:24:00 - behave - INFO - Starting scenario: User Registration Page
+2024-05-23 12:24:03 - behave - INFO - Navigating to the registration page
+2024-05-23 12:24:04 - behave - INFO - Entering firstname,middlename and lastname
+2024-05-23 12:24:16 - behave - ERROR - Scenario failed: User Registration Page
+2024-05-23 12:25:12 - parse - DEBUG - format 'user navigates to Registartion url' -> 'user navigates to Registartion url'
+2024-05-23 12:25:12 - parse - DEBUG - format 'user enters Firstname,Middlename and lastname' -> 'user enters Firstname,Middlename and lastname'
+2024-05-23 12:25:12 - parse - DEBUG - format 'user clicks on Coarse and Gender' -> 'user clicks on Coarse and Gender'
+2024-05-23 12:25:12 - parse - DEBUG - format 'user enters MobileNumber,Address,Email,Password and ReType password' -> 'user enters MobileNumber,Address,Email,Password and ReType password'
+2024-05-23 12:25:12 - parse - DEBUG - format 'user clicks on submit Button' -> 'user clicks on submit Button'
+2024-05-23 12:25:12 - behave - INFO - Starting test suite
+2024-05-23 12:25:12 - behave - INFO - Starting scenario: User Registration Page
+2024-05-23 12:25:15 - behave - INFO - Navigating to the registration page
+2024-05-23 12:25:15 - behave - INFO - Entering firstname,middlename and lastname
+2024-05-23 12:25:33 - behave - INFO - Entering necessary details
+2024-05-23 12:25:38 - behave - INFO - Clicking on Submit Button
+2024-05-23 12:25:39 - behave - INFO - Scenario finished: User Registration Page

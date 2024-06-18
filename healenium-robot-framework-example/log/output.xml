@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.11.3 on win32)" generated="20240520 20:12:39.685" rpa="false" schemaversion="4">
+<suite id="s1" name="Healing" source="C:\Users\SPURGE\PycharmProjects\healenium-robot-framework-example\healenium_tests\healing.robot">
+<test id="s1-t1" name="Example Test" line="10">
+<kw name="Open Remote Chrome Browser" library="resource">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${TEST_PAGE}</arg>
+<arg>${BROWSER}</arg>
+<arg>remote_url=${PROXY_URL}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20240520 20:12:41.227" level="INFO">Opening browser 'Chrome' to base url 'https://elenastepuro.github.io/test_env/index.html' through remote server at 'http://localhost:8085'.</msg>
+<status status="PASS" starttime="20240520 20:12:41.133" endtime="20240520 20:12:50.641"/>
+</kw>
+<status status="PASS" starttime="20240520 20:12:41.132" endtime="20240520 20:12:50.644"/>
+</kw>
+<kw name="When Find Element by XPath" library="resource">
+<arg>//*[@id='change:name']</arg>
+<kw name="Element Should Be Visible" library="SeleniumLibrary">
+<arg>xpath:${xpath}</arg>
+<doc>Verifies that the element identified by ``locator`` is visible.</doc>
+<msg timestamp="20240520 20:12:51.240" level="INFO">Element 'xpath://*[@id='change:name']' is displayed.</msg>
+<status status="PASS" starttime="20240520 20:12:50.650" endtime="20240520 20:12:51.242"/>
+</kw>
+<status status="PASS" starttime="20240520 20:12:50.648" endtime="20240520 20:12:51.242"/>
+</kw>
+<kw name="And Find Element by ID" library="resource">
+<arg>Submit</arg>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>id=${id}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20240520 20:12:51.245" level="INFO">Clicking element 'id=Submit'.</msg>
+<status status="PASS" starttime="20240520 20:12:51.243" endtime="20240520 20:12:51.711"/>
+</kw>
+<status status="PASS" starttime="20240520 20:12:51.242" endtime="20240520 20:12:51.712"/>
+</kw>
+<kw name="Then Find Element by XPath" library="resource">
+<arg>//*[@id='change:name']</arg>
+<kw name="Element Should Be Visible" library="SeleniumLibrary">
+<arg>xpath:${xpath}</arg>
+<doc>Verifies that the element identified by ``locator`` is visible.</doc>
+<msg timestamp="20240520 20:12:52.611" level="INFO">Element 'xpath://*[@id='change:name']' is displayed.</msg>
+<status status="PASS" starttime="20240520 20:12:51.713" endtime="20240520 20:12:52.612"/>
+</kw>
+<status status="PASS" starttime="20240520 20:12:51.712" endtime="20240520 20:12:52.612"/>
+</kw>
+<kw name="And Input Text" library="SeleniumLibrary">
+<arg>//*[@id='change:name']</arg>
+<arg>elementText</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20240520 20:12:52.614" level="INFO">Typing text 'elementText' into text field '//*[@id='change:name']'.</msg>
+<status status="PASS" starttime="20240520 20:12:52.613" endtime="20240520 20:12:53.541"/>
+</kw>
+<status status="PASS" starttime="20240520 20:12:41.128" endtime="20240520 20:12:53.542"/>
+</test>
+<doc>A test suite with a single Gherkin style test.
+
+This test is functionally identical to the example in
+valid_login.robot file.</doc>
+<status status="PASS" starttime="20240520 20:12:39.773" endtime="20240520 20:12:53.543"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Healing">Healing</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
